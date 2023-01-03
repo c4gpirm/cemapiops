@@ -8,6 +8,7 @@ parameters:
     default: 'lava-co-prd-b2c-rg'
   - name: APIM_REPOSITORY_NAME
     type: string
+    default: 'cemapiops'
     displayName: APIM repository for pull request
   - name: API_MANAGEMENT_SERVICE_OUTPUT_FOLDER_PATH
     type: string
