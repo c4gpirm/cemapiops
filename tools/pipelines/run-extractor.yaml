@@ -5,6 +5,7 @@ parameters:
   - name: RESOURCE_GROUP_NAME
     displayName: APIM instance resource group name
     type: string
+    default: 'lava-co-prd-b2c-rg'
   - name: APIM_REPOSITORY_NAME
     type: string
     displayName: APIM repository for pull request
